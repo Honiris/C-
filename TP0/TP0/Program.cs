@@ -9,7 +9,7 @@ namespace TP0
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(MyIsPalindrome("hello olleh"));
+            Console.WriteLine(MySqrt(2, 5));
         }
 
         public static void HelloWorld()
@@ -68,9 +68,14 @@ namespace TP0
             return (a % b == 0) ? b : MyGcd(b, a % b);
         }
 
+        public static double MySqrtAux(double n, uint i, double tmp = 0.5)
+        {
+            return (i == 0) ? tmp : MySqrt(n, i-1, (tmp + n / tmp) / 2);
+        }
+
         public static double MySqrt(double n, uint i)
         {
-            return (i == 0)  ?  :  ;
+            return MySqrtAux(n, i);
         }
 
         public static bool MyIsPalindrome(string a)
@@ -85,7 +90,7 @@ namespace TP0
             Console.WriteLine("What's your month of birth?");
             Console.WriteLine("What's your day of birth?");
             
-            Console.WriteLine("Looks like you're exactly" + age + "!");
+            Console.WriteLine("Looks like you're exactly!");
         }
     }
 }
