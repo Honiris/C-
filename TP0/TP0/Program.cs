@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net.Security;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
 
 namespace TP0
 {
@@ -8,7 +9,7 @@ namespace TP0
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(ChangeChar("hello", 'a', 3));
+            Console.WriteLine(MyIsPalindrome("hello olleh"));
         }
 
         public static void HelloWorld()
@@ -19,23 +20,27 @@ namespace TP0
         public static void SayHello()
         {
             Console.WriteLine("What's your name?");
+
             string name = Console.ReadLine();
+
             Console.WriteLine("Well hello " + name + "!");
         }
 
         public static void CalcAge()
         {
             Console.WriteLine("What's your year of birth?");
+
             string dob = Console.ReadLine();
             int dob_int = int.Parse(dob);
             int year = DateTime.Today.Year;
             int age = year - dob_int;
+
             Console.WriteLine("Looks like you're around " + age + "!");
         }
 
         public static int Absolute(int x)
         {
-            return ((x < 0) ? -x : x);
+            return (x < 0) ? -x : x;
         }
 
         public static uint MyFact(uint n)
@@ -50,31 +55,37 @@ namespace TP0
 
         public static uint MyFibo(uint n)
         {
-            return (n < 2) ? n : MyFibo(n-2) + MyFibo(n-1);
+            return (n < 2) ? n : MyFibo(n - 2) + MyFibo(n - 1);
         }
 
         public static string ChangeChar(string s, char c, uint n)
         {
-            string t;
-            string ch = c.ToString();
+            return (n == 0) ? c + s.Substring(1) : s[0] + ChangeChar(s.Substring(1), c, n - 1);
+        }
+
+        public static uint MyGcd(uint a, uint b)
+        {
+            return (a % b == 0) ? b : MyGcd(b, a % b);
+        }
+
+        public static double MySqrt(double n, uint i)
+        {
+            return (i == 0)  ?  :  ;
+        }
+
+        public static bool MyIsPalindrome(string a)
+        {
+            return (a.Length <= 1) ? true : (a[0] == a[a.Length - 1]) && MyIsPalindrome(a.Substring(1, a.Length - 2));
+        }
+
+        public static void CalcRealAge()
+        {
+            Console.WriteLine("What's your year of birth?");
+            string Year = Console.ReadLine();
+            Console.WriteLine("What's your month of birth?");
+            Console.WriteLine("What's your day of birth?");
             
-            if (n == 0)
-            {
-                t = ch + s.Substring(1);
-            }
-            else if (n == 1)
-            {
-                t = s[0].ToString() + ch + s.Substring(2);
-            }
-            else if (n == s.Length - 1)
-            {
-                t = s.Substring(0, (int) n - 2) + ch;
-            }
-            else
-            {
-                t=s.Substring(0,((int)n-1))+ch+s.Substring((int)n+1);
-            }
-            return t;
+            Console.WriteLine("Looks like you're exactly" + age + "!");
         }
     }
 }

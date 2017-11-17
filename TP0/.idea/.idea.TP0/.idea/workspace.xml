@@ -10,29 +10,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TP0/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="74" column="69" lean-forward="true" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+            <state relative-caret-position="496">
+              <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
               <folding>
-                <marker date="1510912334000" expanded="true" signature="6:74" ph="..." />
-                <marker date="1510912334000" expanded="true" signature="89:2040" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="118:2038" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="171:251" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="292:359" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="398:575" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="613:935" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="978:1037" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="1080:1153" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="1206:1281" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="1324:1404" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="1471:2032" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="1578:1647" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="1676:1763" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="1803:1885" ph="{...}" />
-                <marker date="1510912334000" expanded="true" signature="1902:2000" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="6:125" ph="..." />
+                <marker date="1510930976000" expanded="true" signature="140:2459" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="169:2457" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="222:304" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="345:412" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="451:630" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="668:992" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="1035:1092" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="1135:1208" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="1261:1336" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="1379:1463" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="1530:1646" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="1696:1771" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="1826:1883" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="1936:2075" ph="{...}" />
+                <marker date="1510930976000" expanded="true" signature="2117:2451" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -57,10 +57,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="757" />
-    <option name="y" value="143" />
-    <option name="width" value="1400" />
-    <option name="height" value="930" />
+    <option name="x" value="539" />
+    <option name="y" value="118" />
+    <option name="width" value="1396" />
+    <option name="height" value="932" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -131,12 +131,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510907947940</updated>
-      <workItem from="1510907949991" duration="4426000" />
+      <workItem from="1510907949991" duration="4798000" />
+      <workItem from="1510923705567" duration="7429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4426000" />
+    <option name="totallyTimeSpent" value="12227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -152,25 +153,25 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3125721" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20714286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -187,25 +188,50 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TP0/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="74" column="69" lean-forward="true" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1510912334000" expanded="true" signature="6:74" ph="..." />
-            <marker date="1510912334000" expanded="true" signature="89:2040" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="118:2038" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="171:251" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="292:359" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="398:575" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="613:935" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="978:1037" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="1080:1153" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="1206:1281" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="1324:1404" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="1471:2032" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="1578:1647" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="1676:1763" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="1803:1885" ph="{...}" />
-            <marker date="1510912334000" expanded="true" signature="1902:2000" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="6:125" ph="..." />
+            <marker date="1510930976000" expanded="true" signature="140:2459" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="169:2457" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="222:304" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="345:412" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="451:630" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="668:992" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1035:1092" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1135:1208" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1261:1336" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1379:1463" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1530:1646" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1696:1771" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1826:1883" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1936:2075" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="2117:2451" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP0/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+          <folding>
+            <marker date="1510930976000" expanded="true" signature="6:125" ph="..." />
+            <marker date="1510930976000" expanded="true" signature="140:2459" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="169:2457" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="222:304" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="345:412" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="451:630" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="668:992" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1035:1092" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1135:1208" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1261:1336" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1379:1463" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1530:1646" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1696:1771" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1826:1883" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="1936:2075" ph="{...}" />
+            <marker date="1510930976000" expanded="true" signature="2117:2451" ph="{...}" />
           </folding>
         </state>
       </provider>
