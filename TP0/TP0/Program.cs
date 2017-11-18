@@ -70,7 +70,7 @@ namespace TP0
 
         public static double MySqrtAux(double n, uint i, double tmp = 0.5)
         {
-            return (i == 0) ? tmp : MySqrt(n, i-1, (tmp + n / tmp) / 2);
+            return (i == 0) ? tmp : MySqrtAux(n, i-1, (tmp + n / tmp) / 2);
         }
 
         public static double MySqrt(double n, uint i)
