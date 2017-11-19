@@ -58,9 +58,14 @@ namespace TP0
             return (n < 2) ? n : MyFibo(n - 2) + MyFibo(n - 1);
         }
 
-        public static string ChangeChar(string s, char c, uint n)
+        public static string ChangeCharAux(string s, char c, uint i)
         {
-            return (n == 0) ? c + s.Substring(1) : s[0] + ChangeChar(s.Substring(1), c, n - 1);
+            return (i == 0) ? c + s.Substring(1) : s[0] + ChangeCharAux(s.Substring(1), c, i-1);
+        }
+        
+        public static string ChangeChar(string s, char c, uint i)
+        {
+            return (i >= s.Length) ? s : ChangeCharAux(s, c, i);
         }
 
         public static uint MyGcd(uint a, uint b)
@@ -70,7 +75,7 @@ namespace TP0
 
         public static double MySqrtAux(double n, uint i, double tmp = 0.5)
         {
-            return (i == 0) ? tmp : MySqrt(n, i-1, (tmp + n / tmp) / 2);
+            return (i == 0) ? tmp : MySqrtAux(n, i-1, (tmp + n / tmp) / 2);
         }
 
         public static double MySqrt(double n, uint i)
@@ -78,19 +83,14 @@ namespace TP0
             return MySqrtAux(n, i);
         }
 
-        public static bool MyIsPalindrome(string a)
+        ublic static string MyReverseString(string s)
         {
-            return (a.Length <= 1) ? true : (a[0] == a[a.Length - 1]) && MyIsPalindrome(a.Substring(1, a.Length - 2));
+            return (s.Length == 0) ? "" : MyReverseString(s.Substring(1)) + s[0];
         }
 
-        public static void CalcRealAge()
+        public static bool MyIsPalindrome(string a)
         {
-            Console.WriteLine("What's your year of birth?");
-            string Year = Console.ReadLine();
-            Console.WriteLine("What's your month of birth?");
-            Console.WriteLine("What's your day of birth?");
-            
-            Console.WriteLine("Looks like you're exactly!");
+            return (a == MyReverseString(a));
         }
     }
 }
