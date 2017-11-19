@@ -83,7 +83,7 @@ namespace TP0
             return MySqrtAux(n, i);
         }
 
-        ublic static string MyReverseString(string s)
+        public static string MyReverseString(string s)
         {
             return (s.Length == 0) ? "" : MyReverseString(s.Substring(1)) + s[0];
         }
