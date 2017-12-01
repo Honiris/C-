@@ -8,7 +8,7 @@ namespace TP2
     {
         public static void Main(string[] args)
         {
-            Loop.Print_Strong(100000);
+            Console.WriteLine(Loop.Power(2, 3));
         }
     }
 }

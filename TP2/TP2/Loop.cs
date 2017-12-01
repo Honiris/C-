@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Net;
+using System.Runtime.Remoting.Messaging;
+using System.Security.AccessControl;
 using Debugger;
 
 namespace Debugger
@@ -108,14 +110,26 @@ namespace Debugger
 
         public static float Sqrt(float n)
         {
-            // TODO
-            return 0;
+            var Xn = (float)0.5;
+            
+            for (var i = 1; i <= 7; i++)
+            {
+                Xn = (Xn + (n / Xn)) / 2;
+            }
+            
+            return Xn;
         }
 
         public static long Power(long a, long b)
         {
-            // TODO
-            return 0;
+            long tmp = 1;
+            
+            for (int i = 1; i <= b; i++)
+            {
+                tmp *= a;
+            }
+            
+            return tmp;
         }
 
         public static void Print_Tree(int n)
