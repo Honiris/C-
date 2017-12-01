@@ -8,51 +8,51 @@ namespace Debugger
     {
         public static void Print_Naturals(int n)
         {
-            for (int i = 1; i < n; i++)
-            {
-                Console.WriteLine(i + " ");
-            }
-            Console.WriteLine(n);
+            for (var i = 1; i < n; i++)
+                Console.Write(i + " ");
+            
+            Console.Write(n);
         }
 
         public static bool is_prime(int n)
         {
-            int b = n - 1;
+            var b = n - 1;
             
             while (!Misc.isDivisor(n, b))
-            {
                 b--;
-            }
             
             return (b == 1);
         }
 
         public static void Print_Primes(int n)
         {
-            for (int i = 2; i < n; i++)
+            for (var i = 2; i < n; i++)
             {
                 if (is_prime(i))
-                {
-                    Console.WriteLine(i + " ");
-                }       
+                    Console.Write(i + " ");     
             }
             if (is_prime(n))
-            {
-                Console.WriteLine(n);
-            }
+                Console.Write(n);
         }
 
         public static long Fibonacci(long n)
         {
-            var a = 0;
-            var b = 1;
-            var c = 1;
+            long a = 0;
+            long b = 1;
+            long c = 0;
 
-            for (long i = 0; i < n - 1; i++)
+            if (n == 1)
             {
-                c = a + b;
-                a = b;
-                b = c;
+                c = 1;
+            }
+            else
+            {
+                for (long i = 1; i < n; i++)
+                {
+                    c = a + b;
+                    a = b;
+                    b = c;
+                }
             }
             
             return c;
@@ -60,19 +60,50 @@ namespace Debugger
 
         public static long Factorial(long n)
         {
-            // TODO
-            return 0;
+            long ret = 1;
+
+            if (n == 0)
+            {
+                ret = 1;
+            }
+            else
+            {
+                for (var i = 2; i <= n; i++)
+                    ret *= i;
+            }
+            
+            return ret;
+        }
+
+        public static bool is_strong(int n)
+        {
+            var c = (long)n;
+            long sum = 0;
+
+            while (c != 0)
+            {
+                sum += Factorial(c % 10);
+                c = (c - c % 10) / 10;
+            }
+
+            return (sum == (long) n);
         }
 
         public static void Print_Strong(int n)
         {
-            // TODO
+            for (var i = 1; i < n; i++)
+            {
+                if (is_strong(i))
+                    Console.Write(i + " ");     
+            }
+            
+            if (is_strong(n))
+                Console.Write(n);
         }
 
         public static float Abs(float n)
         {
-            // TODO
-            return 0;
+            return (n < 0) ? -n : n;
         }
 
         public static float Sqrt(float n)

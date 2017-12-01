@@ -8,7 +8,7 @@ namespace TP2
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Loop.Fibonacci(7));
+            Loop.Print_Strong(100000);
         }
     }
 }
