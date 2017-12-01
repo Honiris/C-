@@ -23,7 +23,7 @@ namespace Debugger
             while (!Misc.isDivisor(n, b))
                 b--;
             
-            return (b == 1);
+            return b == 1;
         }
 
         public static void Print_Primes(int n)
@@ -88,7 +88,7 @@ namespace Debugger
                 c = (c - c % 10) / 10;
             }
 
-            return (sum == (long) n);
+            return sum == (long) n;
         }
 
         public static void Print_Strong(int n)
@@ -131,12 +131,16 @@ namespace Debugger
 
         public static void Print_Tree(int n)
         {
-            var pine = "";
+            var star = "*";
+            var space = "";
 
-            for (var i = 1; i <= (1 + 2 * (n - 1)); i++)
-                pine += "";
-            
-            
+            for (var i = 1; i <= n - 1; i++)
+                space += "";
+
+            for (var j = 1; j <= (1 + 2 * (n - 1)); j++)
+            {
+                Console.WriteLine(space + star);
+            }
         }
     }
 }
