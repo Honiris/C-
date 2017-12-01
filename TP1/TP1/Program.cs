@@ -155,14 +155,14 @@ namespace TP1
             var socle = " ===== \n_||_||_\n-------";
             var toit = "  /^\\  \n  |#|  -";
             var etage = " |===| \n  |0|  \n  | |  ";
-            var light = "--";
+            var light = "  --";
             
             Console.WriteLine(toit);
 
             for (var i = 0; i < n; i++)
             {
                 Console.WriteLine(etage + light);
-                light = " " + light + "-";
+                light = "  " + light + "-";
             }
             Console.WriteLine(socle + light);
         }
