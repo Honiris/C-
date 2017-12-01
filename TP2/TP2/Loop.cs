@@ -111,11 +111,10 @@ namespace Debugger
         public static float Sqrt(float n)
         {
             var Xn = (float)0.5;
+            n = Abs(n);
             
             for (var i = 1; i <= 7; i++)
-            {
                 Xn = (Xn + (n / Xn)) / 2;
-            }
             
             return Xn;
         }
@@ -124,17 +123,20 @@ namespace Debugger
         {
             long tmp = 1;
             
-            for (int i = 1; i <= b; i++)
-            {
+            for (var i = 1; i <= b; i++)
                 tmp *= a;
-            }
             
             return tmp;
         }
 
         public static void Print_Tree(int n)
         {
-            // TODO
+            var pine = "";
+
+            for (var i = 1; i <= (1 + 2 * (n - 1)); i++)
+                pine += "";
+            
+            
         }
     }
 }
