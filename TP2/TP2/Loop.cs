@@ -113,7 +113,7 @@ namespace Debugger
             var Xn = (float)0.5;
             n = Abs(n);
             
-            for (var i = 1; i <= 7; i++)
+            while (Abs(n - Xn * Xn) > 0.00001)
                 Xn = (Xn + (n / Xn)) / 2;
             
             return Xn;
@@ -135,11 +135,31 @@ namespace Debugger
             var space = "";
 
             for (var i = 1; i <= n - 1; i++)
-                space += "";
+                space += " ";
 
-            for (var j = 1; j <= (1 + 2 * (n - 1)); j++)
+            var socle = space + "*";
+
+            for (var j = 1; j <= n; j++)
             {
                 Console.WriteLine(space + star);
+                if (space.Length < 1)
+                {
+                    space = "";
+                }
+                else
+                {
+                    space = space.Substring(1, space.Length - 1);
+                }
+                star += "**";
+            }
+            if (n > 3)
+            {
+                Console.WriteLine(socle);
+                Console.WriteLine(socle);
+            }
+            else
+            {
+                Console.WriteLine(socle);
             }
         }
     }

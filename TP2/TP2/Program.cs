@@ -8,7 +8,7 @@ namespace TP2
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Loop.Power(2, 3));
+            Loop.Print_Tree(5);
         }
     }
 }
