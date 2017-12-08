@@ -55,9 +55,7 @@ namespace Basics
                 {
                     if (arr[j] > arr[j + 1])
                     {
-                        tmp = arr[j + 1];
-                        arr[j + 1] = arr[j];
-                        arr[j] = tmp;
+                        Reference.Swap(ref arr[j], ref arr[j + 1]);
                     }       
                 }   
             }
@@ -72,16 +70,22 @@ namespace Basics
             {
                 if (arr[i] > arr[i + 1])
                     test = false;
+                i++;
             }
 
             return test;
         }
+        
+        public static Random rand;
 
-        public static void bogoSort(int[] arr)
+        public static void BogoSort(int[] arr)
         {
             while (!is_sorted(arr))
             {
-                
+                if (rand == null)
+                    rand = new Random();
+                for (int i = 0; i < arr.Length; i++)
+                    Reference.Swap(ref arr[i], ref arr[rand.Next(0, arr.Length - 1)]);
             }
         }
     }
