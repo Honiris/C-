@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using Debugger;
 
-namespace TP2
+namespace Takuzu
 {
     internal class Program
     {
         public static void Main(string[] args)
         {
-            Loop.Print_Tree(20);
         }
     }
 }
