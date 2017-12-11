@@ -19,8 +19,8 @@ namespace Takuzu
                 {-1, 1, -1, -1, -1, -1, 0, -1},
                 { 1, -1, -1, -1, -1, -1, -1, 0}
                 };
-            Takuzu.PutCell(grid, 0, 0, 1);
-            Console.WriteLine(Takuzu.PrintGrid(grid));
+            Takuzu.PutCell(grid, 3, 6, 1);
+            Takuzu.PrintGrid(grid);
         }
     }
 }

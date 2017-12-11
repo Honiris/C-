@@ -21,11 +21,17 @@ namespace Takuzu
                 for (int j = 0; j < grid.GetLength(1); j++)
                 {
                     if (grid[i, j] == 1)
+                    {
                         tmp += "1|";
+                    }
                     else if (grid[i, j] == 0)
+                    {
                         tmp += "0|";
+                    }
                     else
+                    {
                         tmp += " |";
+                    }
                 }
                 Console.WriteLine(tmp);
             }
@@ -89,7 +95,7 @@ namespace Takuzu
         {
             bool test = true;
 
-            if (!(x >= -1 && x <= 1) || x < 0 || y < 0 || y >= grid.GetLength(0) || x >= grid.GetLength(1))
+            if (!(val >= -1 && val <= 1) || x < 0 || y < 0 || y >= grid.GetLength(0) || x >= grid.GetLength(1))
             {
                 test = false;
             }
