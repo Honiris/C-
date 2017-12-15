@@ -6,6 +6,11 @@ namespace miniPokemon
 {
     public class Pokemon : Animal
     {
+        private Poketype poketype;
+        private int damage;
+        private int level;
+        private bool isKO;
+        private int life;
         
         public enum Poketype
         {
@@ -22,8 +27,9 @@ namespace miniPokemon
         public Pokemon(string name, int life, int damage, Poketype poketype)
         : base(name)
         {
-            // TODO
-            throw new TargetInvocationException(new InvalidOperationException("Constructor is not implemented yet"));
+            this.life = life;
+            this.damage = damage;
+            this.poketype = poketype;
         }
 
         #endregion Constructor
@@ -39,26 +45,22 @@ namespace miniPokemon
 
         public override void Describe()
         {
-            Console.WriteLine("I am a pokemon");
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("My name is " + Name + "I'm a pokemon of type" + poketype + "and I'm level" + level);
         }
         
         public void LevelUp()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            level++;
         }
 
         public int Attack()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            return damage;
         }
 
         public void GetHurt(int damage)
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            life -= damage
         }
 
         public void Heal(int life)
