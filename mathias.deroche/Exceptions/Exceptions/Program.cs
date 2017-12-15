@@ -6,7 +6,7 @@ namespace Exceptions
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Base.Pow(3, -2));
+            Console.WriteLine(Base.Pow(3, 9999));
         }
     }
 }

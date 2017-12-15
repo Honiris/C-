@@ -59,12 +59,14 @@ namespace Exceptions
             else
             {
                 float tmp = (float)1.0;
-
+                
                 for (int i = 0; i < p; i++)
                 {
                     tmp *= n;
+                    if (tmp >= Single.MaxValue)
+                        throw new ArgumentException("Dépassement");
                 }
-
+                
                 return tmp;
             }
         }
