@@ -12,6 +12,18 @@ namespace miniPokemon
         private bool isKO;
         private int life;
         
+        public int Life
+        {
+            get { return life; }
+            set { life = value; }
+        }
+        
+        public bool IskO
+        {
+            get { return isKO; }
+            set { isKO = value; }
+        }
+        
         public enum Poketype
         {
             POISON,
@@ -45,7 +57,7 @@ namespace miniPokemon
 
         public override void Describe()
         {
-            Console.WriteLine("My name is " + Name + "I'm a pokemon of type" + poketype + "and I'm level" + level);
+            Console.WriteLine("My name is " + Name + " I'm a pokemon of type " + poketype + " and I'm level " + level);
         }
         
         public void LevelUp()
@@ -60,13 +72,12 @@ namespace miniPokemon
 
         public void GetHurt(int damage)
         {
-            life -= damage
+            life -= damage;
         }
 
         public void Heal(int life)
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            this.life += life;
         }
 
         #endregion Methods

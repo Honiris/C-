@@ -11,8 +11,8 @@ namespace miniPokemon
     {
         static void Main(string[] args)
         {
-            Animal cat = new Animal("salope");
-            cat.Describe();
+            Pokemon salameche = new Pokemon("Salameche", 80, 15, Pokemon.Poketype.FIRE);
+            salameche.Describe();
         }
     }
 }
