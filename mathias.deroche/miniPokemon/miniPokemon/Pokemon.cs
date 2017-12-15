@@ -18,7 +18,7 @@ namespace miniPokemon
             set { life = value; }
         }
         
-        public bool IskO
+        public bool IsKO
         {
             get { return isKO; }
             set { isKO = value; }
@@ -42,6 +42,7 @@ namespace miniPokemon
             this.life = life;
             this.damage = damage;
             this.poketype = poketype;
+            isKO = !(life > 0);
         }
 
         #endregion Constructor
@@ -67,12 +68,18 @@ namespace miniPokemon
 
         public int Attack()
         {
+            Console.WriteLine(poketype + " uses cut, it's super effective");
             return damage;
         }
 
         public void GetHurt(int damage)
         {
             life -= damage;
+            if (life < 0)
+            {
+                life = 0;
+                isKO = true;
+            }
         }
 
         public void Heal(int life)

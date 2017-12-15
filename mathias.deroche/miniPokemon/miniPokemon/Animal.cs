@@ -32,7 +32,7 @@ namespace miniPokemon
 
         public virtual void Describe()
         {
-            Console.WriteLine("My name is " + Name);
+            Console.WriteLine("My name is " + name);
         }
 
         public void Rename(string NewName)
