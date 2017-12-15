@@ -6,6 +6,7 @@ namespace miniPokemon
 {
     public class Pokemon : Animal
     {
+        
         public enum Poketype
         {
             POISON,
@@ -33,13 +34,12 @@ namespace miniPokemon
         
         public override void WhoAmI()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("I am a pokemon");
         }
 
         public override void Describe()
         {
-            // TODO
+            Console.WriteLine("I am a pokemon");
             throw new NotImplementedException("Please fix this quickly");
         }
         

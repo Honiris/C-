@@ -1,17 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Security;
 
 namespace miniPokemon
 {
     public class Animal
     {
+        private string name;
+
+        public string Name
+        {
+            get {return name;}
+        }
+
         #region Constructor
 
         public Animal(string name)
         {
-            // TODO
-            throw new TargetInvocationException(new InvalidOperationException("Constructor is not implemented yet"));
+            this.name = name;
         }
 
         #endregion Constructor
@@ -20,20 +27,17 @@ namespace miniPokemon
 
         public virtual void WhoAmI()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("I am an animal !");
         }
 
         public virtual void Describe()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("My name is " + Name);
         }
 
         public void Rename(string NewName)
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            name = NewName;
         }
 
         #endregion Methods
