@@ -6,56 +6,58 @@ namespace miniPokemon
 {
     class Trainer : Animal
     {
+        private int age;
+        private List<Pokemon> listPokemon;
+        
+        public int Age
+        {
+            get { return age; }
+            set { age = value; }
+        }
+        
         #region Constructor
 
         public Trainer(string name, int age)
         : base(name)
         {
-            // TODO
-            throw new TargetInvocationException(new InvalidOperationException("Constructor is not implemented yet"));
+            this.age = age;
             listPokemon = new List<Pokemon>();
         }
 
         #endregion Constructor
 
-        private List<Pokemon> listPokemon;
-
         #region Methods
 
         public override void WhoAmI()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("I'm a pokemon Trainer !");
         }
 
         public static int NumberOfPokemon()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            return listPokemon.Count;
         }
 
         public override void Describe()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("My name is " + Name + ", I'm " + age + " and I have " + listPokemon.Count + "Pokemon !");
         }
 
         public void Birthday()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            age++;
         }
 
         public void MyPokemon()
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            Console.WriteLine("My pokemon are :");
+            foreach (var x in listPokemon)
+                Console.WriteLine("- " + x.Name);
         }
 
         public void CatchAPokemon(Pokemon pokemon)
         {
-            // TODO
-            throw new NotImplementedException("Please fix this quickly");
+            listPokemon.Add(pokemon);
         }
         
         #endregion Methods

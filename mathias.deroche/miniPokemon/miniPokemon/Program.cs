@@ -11,15 +11,7 @@ namespace miniPokemon
     {
         static void Main(string[] args)
         {
-            Pokemon salameche = new Pokemon("Salameche", 80, 15, Pokemon.Poketype.FIRE);
-            int pdv = salameche.Life;
-            int attack = salameche.Attack();
-            salameche.GetHurt(90);
-            pdv = salameche.Life;
-            bool state = salameche.IsKO;
-            salameche.Heal(80);
-            Console.WriteLine(salameche.Life);
-            
+            Trainer tom = new Trainer("Tom", 19);
         }
     }
 }
