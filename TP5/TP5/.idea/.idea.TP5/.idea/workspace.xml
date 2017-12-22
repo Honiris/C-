@@ -24,8 +24,8 @@
       <file leaf-file-name="CopyFile.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise1/CopyFile.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="369">
+              <caret line="50" column="68" lean-forward="false" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
               <folding>
                 <marker date="1513949375000" expanded="true" signature="6:30" ph="..." />
                 <marker date="1513949375000" expanded="true" signature="51:1277" ph="{...}" />
@@ -80,20 +80,20 @@
       <file leaf-file-name="Maze.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Maze/Maze.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="97">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
-                <marker date="1513951875000" expanded="true" signature="32:1357" ph="{...}" />
-                <marker date="1513951875000" expanded="true" signature="62:1129" ph="{...}" />
-                <marker date="1513951875000" expanded="true" signature="68:242" ph="/// MAZE: ... " />
-                <marker date="1513951875000" expanded="true" signature="283:481" ph="{...}" />
-                <marker date="1513951875000" expanded="true" signature="291:477" ph="/* get .maze filename ... */" />
-                <marker date="1513951875000" expanded="true" signature="520:1126" ph="{...}" />
-                <marker date="1513951875000" expanded="true" signature="658:874" ph="{...}" />
-                <marker date="1513951875000" expanded="true" signature="912:1122" ph="{...}" />
-                <marker date="1513951875000" expanded="true" signature="1132:1211" ph="///   Class that allows to store 2D coordinates. ... " />
-                <marker date="1513951875000" expanded="true" signature="1233:1355" ph="{...}" />
-                <marker date="1513951875000" expanded="true" signature="1265:1293" ph="{...}" />
+                <marker date="1513954081000" expanded="true" signature="32:1505" ph="{...}" />
+                <marker date="1513954081000" expanded="true" signature="62:1277" ph="{...}" />
+                <marker date="1513954081000" expanded="true" signature="68:242" ph="/// MAZE: ... " />
+                <marker date="1513954081000" expanded="true" signature="283:481" ph="{...}" />
+                <marker date="1513954081000" expanded="true" signature="291:477" ph="/* get .maze filename ... */" />
+                <marker date="1513954081000" expanded="true" signature="520:1274" ph="{...}" />
+                <marker date="1513954081000" expanded="true" signature="691:920" ph="{...}" />
+                <marker date="1513954081000" expanded="true" signature="969:1169" ph="{...}" />
+                <marker date="1513954081000" expanded="true" signature="1280:1359" ph="///   Class that allows to store 2D coordinates. ... " />
+                <marker date="1513954081000" expanded="true" signature="1381:1503" ph="{...}" />
+                <marker date="1513954081000" expanded="true" signature="1413:1441" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -205,12 +205,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513947405766</updated>
-      <workItem from="1513947408254" duration="4468000" />
+      <workItem from="1513947408254" duration="6675000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4468000" />
+    <option name="totallyTimeSpent" value="6675000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,21 +319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise1/Architecture.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding>
-            <marker date="1513950738000" expanded="true" signature="37:905" ph="{...}" />
-            <marker date="1513950738000" expanded="true" signature="75:903" ph="{...}" />
-            <marker date="1513950738000" expanded="true" signature="81:381" ph="///   EXERCISE 1.5: ... " />
-            <marker date="1513950738000" expanded="true" signature="425:900" ph="{...}" />
-            <marker date="1513950738000" expanded="true" signature="545:578" ph="{...}" />
-            <marker date="1513950738000" expanded="true" signature="614:658" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exercise1/Test.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -359,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exercise1/CopyFile.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        <state relative-caret-position="369">
+          <caret line="50" column="68" lean-forward="false" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
           <folding>
             <marker date="1513949375000" expanded="true" signature="6:30" ph="..." />
             <marker date="1513949375000" expanded="true" signature="51:1277" ph="{...}" />
@@ -377,22 +362,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise1/Architecture.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <marker date="1513950738000" expanded="true" signature="37:905" ph="{...}" />
+            <marker date="1513950738000" expanded="true" signature="75:903" ph="{...}" />
+            <marker date="1513950738000" expanded="true" signature="81:381" ph="///   EXERCISE 1.5: ... " />
+            <marker date="1513950738000" expanded="true" signature="425:900" ph="{...}" />
+            <marker date="1513950738000" expanded="true" signature="545:578" ph="{...}" />
+            <marker date="1513950738000" expanded="true" signature="614:658" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Maze/Maze.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        <state relative-caret-position="97">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
-            <marker date="1513951875000" expanded="true" signature="32:1357" ph="{...}" />
-            <marker date="1513951875000" expanded="true" signature="62:1129" ph="{...}" />
-            <marker date="1513951875000" expanded="true" signature="68:242" ph="/// MAZE: ... " />
-            <marker date="1513951875000" expanded="true" signature="283:481" ph="{...}" />
-            <marker date="1513951875000" expanded="true" signature="291:477" ph="/* get .maze filename ... */" />
-            <marker date="1513951875000" expanded="true" signature="520:1126" ph="{...}" />
-            <marker date="1513951875000" expanded="true" signature="658:874" ph="{...}" />
-            <marker date="1513951875000" expanded="true" signature="912:1122" ph="{...}" />
-            <marker date="1513951875000" expanded="true" signature="1132:1211" ph="///   Class that allows to store 2D coordinates. ... " />
-            <marker date="1513951875000" expanded="true" signature="1233:1355" ph="{...}" />
-            <marker date="1513951875000" expanded="true" signature="1265:1293" ph="{...}" />
+            <marker date="1513954081000" expanded="true" signature="32:1505" ph="{...}" />
+            <marker date="1513954081000" expanded="true" signature="62:1277" ph="{...}" />
+            <marker date="1513954081000" expanded="true" signature="68:242" ph="/// MAZE: ... " />
+            <marker date="1513954081000" expanded="true" signature="283:481" ph="{...}" />
+            <marker date="1513954081000" expanded="true" signature="291:477" ph="/* get .maze filename ... */" />
+            <marker date="1513954081000" expanded="true" signature="520:1274" ph="{...}" />
+            <marker date="1513954081000" expanded="true" signature="691:920" ph="{...}" />
+            <marker date="1513954081000" expanded="true" signature="969:1169" ph="{...}" />
+            <marker date="1513954081000" expanded="true" signature="1280:1359" ph="///   Class that allows to store 2D coordinates. ... " />
+            <marker date="1513954081000" expanded="true" signature="1381:1503" ph="{...}" />
+            <marker date="1513954081000" expanded="true" signature="1413:1441" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -23,23 +23,32 @@ namespace Maze
 
 		private static string AskMazeFile()
 		{
-			System.Console.WriteLine("Which file should be loaded ?");
-			string path = System.Console.ReadLine();
+			bool test = true;
+			System.Console.Read("Which file should be loaded ?");
+			
+			do
+			{
+				string path = System.Console.ReadLine();
 
-			if (!File.Exists(path))
-			{
-				if (Path.GetExtension(path))
-					System.Console.WriteLine("C'est n'est pas .maze et ce fichier n'existe pas");
+				if (!File.Exists(path))
+				{
+					if (Path.GetExtension(path) == "maze")
+						System.Console.Write("#  It is a .maze but the file does not exists.\n");
+					else
+						System.Console.Write("#  It is not a .maze and it does not even exists.\n");
+				}
+				else if (!Path.GetExtension(path) == "maze")
+				{
+					if (File.Exists(path))
+						System.Console.Write("#  File exists but it is not a .maze.\n");
+					else
+						System.Console.Write("#  File does not exists and it is not a .maze\n");
+				}
 				else
-					System.Console.WriteLine("C'est bien un .maze et ce fichier n'existe pas");
-			}
-			else if (!Path.GetExtension(path))
-			{
-				if (File.Exists(path))
-					System.Console.WriteLine("C'est n'est pas .maze et ce fichier n'existe pas");
-				else
-					System.Console.WriteLine("C'est bien un .maze et ce fichier n'existe pas");
-			}
+					test = false;
+			} while (test);
+			
+		    System.Console.WriteLine("Thank you, bye");
 		}
 	}
 
