@@ -20,6 +20,27 @@ namespace Maze
 			// print the maze (BONUS)
 			// save solution in .solved file
 		}
+
+		private static string AskMazeFile()
+		{
+			System.Console.WriteLine("Which file should be loaded ?");
+			string path = System.Console.ReadLine();
+
+			if (!File.Exists(path))
+			{
+				if (Path.GetExtension(path))
+					System.Console.WriteLine("C'est n'est pas .maze et ce fichier n'existe pas");
+				else
+					System.Console.WriteLine("C'est bien un .maze et ce fichier n'existe pas");
+			}
+			else if (!Path.GetExtension(path))
+			{
+				if (File.Exists(path))
+					System.Console.WriteLine("C'est n'est pas .maze et ce fichier n'existe pas");
+				else
+					System.Console.WriteLine("C'est bien un .maze et ce fichier n'existe pas");
+			}
+		}
 	}
 
 	/// <summary>
