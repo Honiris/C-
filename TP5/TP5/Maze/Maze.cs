@@ -12,43 +12,43 @@ namespace Maze
 		/// <param name="args">unused</param>
 		public static void Main(string[] args)
 		{
-			// get .maze filename
-			// get .solved filename
-			// parse .maze file
-			// print the maze (BONUS)
-			// solve the maze
-			// print the maze (BONUS)
-			// save solution in .solved file
+			System.Console.WriteLine(AskMazeFile());
 		}
 
 		private static string AskMazeFile()
 		{
 			bool test = true;
-			System.Console.Read("Which file should be loaded ?");
+			System.Console.WriteLine("Which file should be loaded ?");
+			string path;
 			
 			do
 			{
-				string path = System.Console.ReadLine();
-
+				path = "";
+				while (path == "")
+					path = System.Console.ReadLine();
+				
 				if (!File.Exists(path))
 				{
-					if (Path.GetExtension(path) == "maze")
-						System.Console.Write("#  It is a .maze but the file does not exists.\n");
+					if (Path.GetExtension(path) == ".maze")
+						System.Console.WriteLine(path + "  #  It is a .maze but the file does not exists.");
 					else
-						System.Console.Write("#  It is not a .maze and it does not even exists.\n");
-				}
-				else if (!Path.GetExtension(path) == "maze")
-				{
-					if (File.Exists(path))
-						System.Console.Write("#  File exists but it is not a .maze.\n");
-					else
-						System.Console.Write("#  File does not exists and it is not a .maze\n");
+						System.Console.WriteLine(path + "  #  It is not a .maze and it does not even exists.");
 				}
 				else
+				{
+					if (Path.GetExtension(path) == ".maze")
+						System.Console.WriteLine(path + "  #  File exists and it is a .maze.");
+					else
+						System.Console.WriteLine(path + "  #  File exists but it is not a .maze");
+				}
+
+				if ((Path.GetExtension(path) == "maze") && File.Exists(path))
 					test = false;
 			} while (test);
 			
 		    System.Console.WriteLine("Thank you, bye");
+			
+			return path;
 		}
 	}
 
