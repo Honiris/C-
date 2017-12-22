@@ -24,8 +24,8 @@
       <file leaf-file-name="CopyFile.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise1/CopyFile.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            <state relative-caret-position="29">
+              <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="34" selection-end-column="13" />
               <folding>
                 <marker date="1513949375000" expanded="true" signature="6:30" ph="..." />
                 <marker date="1513949375000" expanded="true" signature="51:1277" ph="{...}" />
@@ -43,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise1/Test.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -63,13 +63,34 @@
       <file leaf-file-name="Architecture.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercise1/Architecture.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="391">
+              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding>
-                <marker date="1513950171000" expanded="true" signature="37:758" ph="{...}" />
-                <marker date="1513950171000" expanded="true" signature="75:756" ph="{...}" />
-                <marker date="1513950171000" expanded="true" signature="81:381" ph="///   EXERCISE 1.5: ... " />
-                <marker date="1513950171000" expanded="true" signature="425:753" ph="{...}" />
+                <marker date="1513950738000" expanded="true" signature="37:905" ph="{...}" />
+                <marker date="1513950738000" expanded="true" signature="75:903" ph="{...}" />
+                <marker date="1513950738000" expanded="true" signature="81:381" ph="///   EXERCISE 1.5: ... " />
+                <marker date="1513950738000" expanded="true" signature="425:900" ph="{...}" />
+                <marker date="1513950738000" expanded="true" signature="545:578" ph="{...}" />
+                <marker date="1513950738000" expanded="true" signature="614:658" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Maze.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Maze/Maze.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding>
+                <marker date="1513950795000" expanded="true" signature="32:712" ph="{...}" />
+                <marker date="1513950795000" expanded="true" signature="62:484" ph="{...}" />
+                <marker date="1513950795000" expanded="true" signature="68:242" ph="/// MAZE: ... " />
+                <marker date="1513950795000" expanded="true" signature="283:481" ph="{...}" />
+                <marker date="1513950795000" expanded="true" signature="291:477" ph="/* get .maze filename ... */" />
+                <marker date="1513950795000" expanded="true" signature="487:566" ph="///   Class that allows to store 2D coordinates. ... " />
+                <marker date="1513950795000" expanded="true" signature="588:710" ph="{...}" />
+                <marker date="1513950795000" expanded="true" signature="620:648" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -82,14 +103,16 @@
     <setting file="file://$PROJECT_DIR$/Exercise1/Architecture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Exercise1/PrintFile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Exercise1/CopyFile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Maze/Maze.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Exercise1/PrintFile.cs" />
         <option value="$PROJECT_DIR$/Exercise1/CopyFile.cs" />
-        <option value="$PROJECT_DIR$/Exercise1/Architecture.cs" />
         <option value="$PROJECT_DIR$/Exercise1/Test.cs" />
+        <option value="$PROJECT_DIR$/Exercise1/Architecture.cs" />
+        <option value="$PROJECT_DIR$/Maze/Maze.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +122,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="210" />
     <option name="y" value="152" />
     <option name="width" value="1260" />
@@ -179,12 +202,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513947405766</updated>
-      <workItem from="1513947408254" duration="3025000" />
+      <workItem from="1513947408254" duration="3392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3025000" />
+    <option name="totallyTimeSpent" value="3392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -196,14 +219,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="31" width="1686" height="973" extended-state="7" />
+    <frame x="-3" y="31" width="1686" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -302,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exercise1/CopyFile.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+        <state relative-caret-position="29">
+          <caret line="30" column="12" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="34" selection-end-column="13" />
           <folding>
             <marker date="1513949375000" expanded="true" signature="6:30" ph="..." />
             <marker date="1513949375000" expanded="true" signature="51:1277" ph="{...}" />
@@ -320,19 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercise1/Architecture.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <marker date="1513950171000" expanded="true" signature="37:758" ph="{...}" />
-            <marker date="1513950171000" expanded="true" signature="75:756" ph="{...}" />
-            <marker date="1513950171000" expanded="true" signature="81:381" ph="///   EXERCISE 1.5: ... " />
-            <marker date="1513950171000" expanded="true" signature="425:753" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Exercise1/Test.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -344,6 +355,38 @@
             <marker date="1513950377000" expanded="true" signature="395:523" ph="///   TESTS ... " />
             <marker date="1513950377000" expanded="true" signature="564:993" ph="{...}" />
             <marker date="1513950377000" expanded="true" signature="572:927" ph="/* TODO: put all your tests here like these examples ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercise1/Architecture.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <marker date="1513950738000" expanded="true" signature="37:905" ph="{...}" />
+            <marker date="1513950738000" expanded="true" signature="75:903" ph="{...}" />
+            <marker date="1513950738000" expanded="true" signature="81:381" ph="///   EXERCISE 1.5: ... " />
+            <marker date="1513950738000" expanded="true" signature="425:900" ph="{...}" />
+            <marker date="1513950738000" expanded="true" signature="545:578" ph="{...}" />
+            <marker date="1513950738000" expanded="true" signature="614:658" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Maze/Maze.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <marker date="1513950795000" expanded="true" signature="32:712" ph="{...}" />
+            <marker date="1513950795000" expanded="true" signature="62:484" ph="{...}" />
+            <marker date="1513950795000" expanded="true" signature="68:242" ph="/// MAZE: ... " />
+            <marker date="1513950795000" expanded="true" signature="283:481" ph="{...}" />
+            <marker date="1513950795000" expanded="true" signature="291:477" ph="/* get .maze filename ... */" />
+            <marker date="1513950795000" expanded="true" signature="487:566" ph="///   Class that allows to store 2D coordinates. ... " />
+            <marker date="1513950795000" expanded="true" signature="588:710" ph="{...}" />
+            <marker date="1513950795000" expanded="true" signature="620:648" ph="{...}" />
           </folding>
         </state>
       </provider>

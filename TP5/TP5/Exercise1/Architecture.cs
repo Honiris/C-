@@ -14,6 +14,16 @@ namespace Exercise1
 		public static void Architect(string path)
 		{
 			string read = "Everything in programming is magic... except for the programmer\n";
+			
+			if (File.Exists(path))
+			{
+				File.Delete(path);
+			}
+			else if (Directory.Exists(path))
+			{
+				Directory.Delete(path, true);
+			}
+			
 			Directory.CreateDirectory(path);
 			File.WriteAllText(path + "AUTHORS", "* prenom.nom\n");
 			File.WriteAllText(path + "READ", read);

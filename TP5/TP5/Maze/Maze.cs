@@ -1,4 +1,6 @@
-﻿namespace Maze
+﻿using System.IO;
+
+namespace Maze
 {
 	internal static class Maze
 	{
