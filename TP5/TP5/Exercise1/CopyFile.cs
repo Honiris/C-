@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 namespace Exercise1
 {
@@ -16,17 +17,40 @@ namespace Exercise1
 			if (!File.Exists(source))
 			{
 				string str = Path.GetFileName(source);
-				System.Console.WriteLine("could bot open file: <" + str + ">");
+				System.Console.WriteLine("could not open file: <" + str + ">");
 			}
 			else
 			{
-				File.WriteAllText(destination, source);
+				string file = File.ReadAllText(source);
+				File.WriteAllText(destination, file);
 			}
 		}
 		
 		public static void CopyHalfFile(string source, string destination)
 		{
-			
+			if (!File.Exists(source))
+			{
+				string str = Path.GetFileName(source);
+				System.Console.WriteLine("could not open file: <" + str + ">");
+			}
+			else
+			{
+				string[] file = File.ReadAllLines(source);
+				int half;
+				int len = file.Length;
+				
+				File.WriteAllText(destination, "");
+
+				if (file.Length % 2 == 0)
+					half = len / 2;
+				else
+					half = (len - 1) / 2;
+
+				for (int i = 0; i < half; i += 1)
+				{
+					File.AppendAllText(destination, file[i] + "\n");
+				}
+			}
 		}	
 	}
 }

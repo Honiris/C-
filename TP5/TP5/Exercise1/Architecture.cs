@@ -13,17 +13,12 @@ namespace Exercise1
 		/// <param name="path">the path to the first folder you will create</param>
 		public static void Architect(string path)
 		{
-			// if path is a file, remove it.
-			// if path is a directory remove it and everything it contains
-			// - create a directory at path 
-			// - add a file AUTHORS in the created directory
-			// - fill AUTHORS with "* firstname.lastname\n" ('\n' is a newline character)
-			// - add file README in the created directory
-			// - fill README with "Everything in programming is magic... except for the programmer\n"
-			// - add a new directory inside the first directory named TP5
-			// - add a file useless.txt in TP5 directory and leave it empty
-
-			// T
+			string read = "Everything in programming is magic... except for the programmer\n";
+			Directory.CreateDirectory(path);
+			File.WriteAllText(path + "AUTHORS", "* prenom.nom\n");
+			File.WriteAllText(path + "READ", read);
+			Directory.CreateDirectory(path + "TP5");
+			File.WriteAllText(path + "/TP5/useless.txt", "");
 		}
 	}
 }

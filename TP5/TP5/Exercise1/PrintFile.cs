@@ -15,7 +15,7 @@ namespace Exercise1
 			if (!File.Exists(path))
 			{
 				string str = Path.GetFileName(path);
-				System.Console.WriteLine("could bot open file: <" + str + ">");
+				System.Console.WriteLine("could not open file: <" + str + ">");
 			}
 			else
 			{
