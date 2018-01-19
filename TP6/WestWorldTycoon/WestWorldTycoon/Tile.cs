@@ -75,20 +75,19 @@ namespace WestWorldTycoon
             switch (building.Type)
             {
                 case Building.BuildingType.ATTRACTION :
-                    (building as Attraction).Upgrade(ref money);
+                    return (building as Attraction).Upgrade(ref money);
                     break;
                 case Building.BuildingType.SHOP :
-                    (building as Shop).Upgrade(ref money);
+                    return (building as Shop).Upgrade(ref money);
                     break;
                 case Building.BuildingType.HOUSE :
-                    (building as House).Upgrade(ref money);
+                    return (building as House).Upgrade(ref money);
                     break;
                 default :
-                    
+                    return false;
                     break;
             }
             
-            return building.(building.Type).Upgrade();
         }
         
         
