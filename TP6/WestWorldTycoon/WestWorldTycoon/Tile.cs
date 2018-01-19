@@ -30,6 +30,11 @@ namespace WestWorldTycoon
         
         public bool Build(ref long money, Building.BuildingType type)
         {
+            int[] costs =
+            {
+                10000, 250, 300
+            };
+            int cost = costs[(int) type - 1];
             throw new NotImplementedException();
         }
 
