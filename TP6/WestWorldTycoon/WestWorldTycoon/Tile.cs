@@ -30,17 +30,28 @@ namespace WestWorldTycoon
         
         public bool Build(ref long money, Building.BuildingType type)
         {
-            int[] costs =
+            long price;
+            
+            switch (type)
             {
-                10000, 250, 300
-            };
+                case Building.BuildingType.ATTRACTION :
+                    price = 10000; 
+                    break;
+                case Building.BuildingType.SHOP :
+                    price = 300;
+                    break;
+                case Building.BuildingType.HOUSE :
+                    price = 250;
+                    break;
+                default :
+                    Console.WriteLine("AH");
+                    return false;
+            }
             
-            int cost = costs[(int) type - 2];
-            
-            if (money < cost || biome != Biome.PLAIN)
+            if (money < price || biome != Biome.PLAIN)
                 return false;
             
-            money -= cost;
+            money -= price;
             
             switch (type)
             {
@@ -50,11 +61,8 @@ namespace WestWorldTycoon
                    case Building.BuildingType.SHOP :
                        building = new Shop();
                        break;
-                   case Building.BuildingType.HOUSE :
-                       building = new House();
-                       break;
                    default :
-                       Console.WriteLine("AH");
+                       building = new House();
                        break;
             }
             
