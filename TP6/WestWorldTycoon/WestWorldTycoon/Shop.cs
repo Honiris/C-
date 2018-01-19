@@ -26,7 +26,7 @@ namespace WestWorldTycoon
         
         public long Income(long population)
         {
-            return INCOME[lvl];
+            return (INCOME[lvl] * population) / 100;
         }
         
         
