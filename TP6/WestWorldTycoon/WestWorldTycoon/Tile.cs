@@ -89,19 +89,25 @@ namespace WestWorldTycoon
         
         public long GetHousing()
         {
-            throw new NotImplementedException();
+            if (building.Type != Building.BuildingType.HOUSE)
+                throw new ArgumentException("...");
+            return (building as House).Housing();
         }
         
         
         public long GetAttractiveness()
         {
-            throw new NotImplementedException();
+            if (building.Type != Building.BuildingType.ATTRACTION)
+                throw new ArgumentException("...");
+            return (building as Attraction).Attractiveness();
         }
         
         
         public long GetIncome(long population)
         {
-            throw new NotImplementedException();
+            if (building.Type != Building.BuildingType.SHOP)
+                throw new ArgumentException("...");
+            return (building as Shop).Income(population);
         }
 
 
