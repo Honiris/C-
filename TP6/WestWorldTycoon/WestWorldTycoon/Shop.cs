@@ -4,7 +4,6 @@ namespace WestWorldTycoon
 {
     public class Shop : Building
     {
-        
         public const long BUILD_COST = 300;
         public static readonly long[] UPGRADE_COST = { 2500, 10000, 50000 };
         public static readonly long[] INCOME = { 7, 8, 9, 10 };

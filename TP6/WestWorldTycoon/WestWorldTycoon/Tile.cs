@@ -5,6 +5,9 @@ namespace WestWorldTycoon
 {
     public class Tile
     {
+        private Biome biome;
+        private Building building;
+        
         public enum Biome
         {
             SEA, MOUNTAIN, PLAIN
@@ -13,7 +16,8 @@ namespace WestWorldTycoon
         
         public Tile(Biome b)
         {
-            throw new NotImplementedException();
+            biome = b;
+            building = null;
         }
 
         
@@ -63,7 +67,7 @@ namespace WestWorldTycoon
 
         public Biome GetBiome
         {
-            get { throw new NotImplementedException(); }
+            get { return biome; }
         }
     }
 }
