@@ -34,8 +34,31 @@ namespace WestWorldTycoon
             {
                 10000, 250, 300
             };
-            int cost = costs[(int) type - 1];
-            throw new NotImplementedException();
+            
+            int cost = costs[(int) type - 2];
+            
+            if (money < cost || biome != Biome.PLAIN)
+                return false;
+            
+            money -= cost;
+            
+            switch (type)
+            {
+                   case Building.BuildingType.ATTRACTION :
+                       building = new Attraction();
+                       break;
+                   case Building.BuildingType.SHOP :
+                       building = new Shop();
+                       break;
+                   case Building.BuildingType.HOUSE :
+                       building = new House();
+                       break;
+                   default :
+                       Console.WriteLine("AH");
+                       break;
+            }
+            
+            return true;
         }
 
 
