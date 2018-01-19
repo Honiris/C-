@@ -72,7 +72,7 @@ namespace WestWorldTycoon
 
         public bool Upgrade(ref long money)
         {
-            throw new NotImplementedException();
+            return (building as building.Type).Upgrade
         }
         
         
