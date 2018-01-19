@@ -72,7 +72,23 @@ namespace WestWorldTycoon
 
         public bool Upgrade(ref long money)
         {
-            return (building as building.Type).Upgrade
+            switch (building.Type)
+            {
+                case Building.BuildingType.ATTRACTION :
+                    (building as Attraction).Upgrade(ref money);
+                    break;
+                case Building.BuildingType.SHOP :
+                    (building as Shop).Upgrade(ref money);
+                    break;
+                case Building.BuildingType.HOUSE :
+                    (building as House).Upgrade(ref money);
+                    break;
+                default :
+                    
+                    break;
+            }
+            
+            return building.(building.Type).Upgrade();
         }
         
         
