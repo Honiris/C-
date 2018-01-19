@@ -65,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tile.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tile.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WestWorldTycoon/Tile.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="96" column="8" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+            <state relative-caret-position="399">
+              <caret line="105" column="23" lean-forward="false" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
               <folding>
                 <marker date="1516375156000" expanded="false" signature="6:38" ph="..." />
                 <marker date="1516375156000" expanded="true" signature="65:3291" ph="{...}" />
@@ -87,6 +87,30 @@
                 <marker date="1516375156000" expanded="true" signature="2876:3067" ph="{...}" />
                 <marker date="1516375156000" expanded="true" signature="3099:3189" ph="{...}" />
                 <marker date="1516375156000" expanded="true" signature="3229:3283" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WestWorldTycoon/Game.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1515104358000" expanded="true" signature="40:1471" ph="{...}" />
+                <marker date="1515104358000" expanded="true" signature="64:1469" ph="{...}" />
+                <marker date="1515104358000" expanded="true" signature="135:264" ph="{...}" />
+                <marker date="1515104358000" expanded="true" signature="302:371" ph="{...}" />
+                <marker date="1515104358000" expanded="true" signature="418:522" ph="{...}" />
+                <marker date="1515104358000" expanded="true" signature="592:661" ph="{...}" />
+                <marker date="1515104358000" expanded="true" signature="705:774" ph="{...}" />
+                <marker date="1515104358000" expanded="true" signature="825:894" ph="{...}" />
+                <marker date="1515104358000" expanded="true" signature="938:1015" ph="{...}" />
+                <marker date="1515104358000" expanded="true" signature="1059:1136" ph="{...}" />
+                <marker date="1515104358000" expanded="true" signature="1181:1258" ph="{...}" />
+                <marker date="1515104358000" expanded="true" signature="1285:1362" ph="{...}" />
+                <marker date="1515104358000" expanded="true" signature="1386:1463" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -123,24 +147,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Map.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WestWorldTycoon/Map.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
-                <marker date="1515163318000" expanded="false" signature="6:82" ph="..." />
-                <marker date="1515163318000" expanded="true" signature="109:1288" ph="{...}" />
-                <marker date="1515163318000" expanded="true" signature="132:1286" ph="{...}" />
-                <marker date="1515163318000" expanded="true" signature="170:239" ph="{...}" />
-                <marker date="1515163318000" expanded="true" signature="285:375" ph="{...}" />
-                <marker date="1515163318000" expanded="true" signature="461:530" ph="{...}" />
-                <marker date="1515163318000" expanded="true" signature="574:664" ph="{...}" />
-                <marker date="1515163318000" expanded="true" signature="723:792" ph="{...}" />
-                <marker date="1515163318000" expanded="true" signature="850:919" ph="{...}" />
-                <marker date="1515163318000" expanded="true" signature="962:1031" ph="{...}" />
-                <marker date="1515163318000" expanded="true" signature="1069:1138" ph="{...}" />
-                <marker date="1515163318000" expanded="true" signature="1203:1272" ph="{...}" />
+                <marker date="1516375504000" expanded="true" signature="6:82" ph="..." />
+                <marker date="1516375504000" expanded="true" signature="109:1322" ph="{...}" />
+                <marker date="1516375504000" expanded="true" signature="132:1320" ph="{...}" />
+                <marker date="1516375504000" expanded="true" signature="210:273" ph="{...}" />
+                <marker date="1516375504000" expanded="true" signature="319:409" ph="{...}" />
+                <marker date="1516375504000" expanded="true" signature="495:564" ph="{...}" />
+                <marker date="1516375504000" expanded="true" signature="608:698" ph="{...}" />
+                <marker date="1516375504000" expanded="true" signature="757:826" ph="{...}" />
+                <marker date="1516375504000" expanded="true" signature="884:953" ph="{...}" />
+                <marker date="1516375504000" expanded="true" signature="996:1065" ph="{...}" />
+                <marker date="1516375504000" expanded="true" signature="1103:1172" ph="{...}" />
+                <marker date="1516375504000" expanded="true" signature="1237:1306" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -168,6 +192,7 @@
     <setting file="file://$PROJECT_DIR$/WestWorldTycoon/Tile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WestWorldTycoon/MyBot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WestWorldTycoon/Attraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WestWorldTycoon/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WestWorldTycoon/Shop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WestWorldTycoon/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WestWorldTycoon/House.cs" root0="FORCE_HIGHLIGHTING" />
@@ -180,6 +205,7 @@
         <option value="$PROJECT_DIR$/WestWorldTycoon/Attraction.cs" />
         <option value="$PROJECT_DIR$/WestWorldTycoon/Shop.cs" />
         <option value="$PROJECT_DIR$/WestWorldTycoon/Tile.cs" />
+        <option value="$PROJECT_DIR$/WestWorldTycoon/Map.cs" />
       </list>
     </option>
   </component>
@@ -282,12 +308,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516368194475</updated>
       <workItem from="1516368198453" duration="1155000" />
-      <workItem from="1516370431596" duration="4730000" />
+      <workItem from="1516370431596" duration="5090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5885000" />
+    <option name="totallyTimeSpent" value="6245000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,27 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WestWorldTycoon/Map.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1515163318000" expanded="false" signature="6:82" ph="..." />
-            <marker date="1515163318000" expanded="true" signature="109:1288" ph="{...}" />
-            <marker date="1515163318000" expanded="true" signature="132:1286" ph="{...}" />
-            <marker date="1515163318000" expanded="true" signature="170:239" ph="{...}" />
-            <marker date="1515163318000" expanded="true" signature="285:375" ph="{...}" />
-            <marker date="1515163318000" expanded="true" signature="461:530" ph="{...}" />
-            <marker date="1515163318000" expanded="true" signature="574:664" ph="{...}" />
-            <marker date="1515163318000" expanded="true" signature="723:792" ph="{...}" />
-            <marker date="1515163318000" expanded="true" signature="850:919" ph="{...}" />
-            <marker date="1515163318000" expanded="true" signature="962:1031" ph="{...}" />
-            <marker date="1515163318000" expanded="true" signature="1069:1138" ph="{...}" />
-            <marker date="1515163318000" expanded="true" signature="1203:1272" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WestWorldTycoon/Attraction.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -549,8 +554,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WestWorldTycoon/Tile.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="96" column="8" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+        <state relative-caret-position="399">
+          <caret line="105" column="23" lean-forward="false" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
           <folding>
             <marker date="1516375156000" expanded="false" signature="6:38" ph="..." />
             <marker date="1516375156000" expanded="true" signature="65:3291" ph="{...}" />
@@ -568,6 +573,49 @@
             <marker date="1516375156000" expanded="true" signature="2876:3067" ph="{...}" />
             <marker date="1516375156000" expanded="true" signature="3099:3189" ph="{...}" />
             <marker date="1516375156000" expanded="true" signature="3229:3283" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WestWorldTycoon/Game.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1515104358000" expanded="true" signature="40:1471" ph="{...}" />
+            <marker date="1515104358000" expanded="true" signature="64:1469" ph="{...}" />
+            <marker date="1515104358000" expanded="true" signature="135:264" ph="{...}" />
+            <marker date="1515104358000" expanded="true" signature="302:371" ph="{...}" />
+            <marker date="1515104358000" expanded="true" signature="418:522" ph="{...}" />
+            <marker date="1515104358000" expanded="true" signature="592:661" ph="{...}" />
+            <marker date="1515104358000" expanded="true" signature="705:774" ph="{...}" />
+            <marker date="1515104358000" expanded="true" signature="825:894" ph="{...}" />
+            <marker date="1515104358000" expanded="true" signature="938:1015" ph="{...}" />
+            <marker date="1515104358000" expanded="true" signature="1059:1136" ph="{...}" />
+            <marker date="1515104358000" expanded="true" signature="1181:1258" ph="{...}" />
+            <marker date="1515104358000" expanded="true" signature="1285:1362" ph="{...}" />
+            <marker date="1515104358000" expanded="true" signature="1386:1463" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WestWorldTycoon/Map.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <marker date="1516375504000" expanded="true" signature="6:82" ph="..." />
+            <marker date="1516375504000" expanded="true" signature="109:1322" ph="{...}" />
+            <marker date="1516375504000" expanded="true" signature="132:1320" ph="{...}" />
+            <marker date="1516375504000" expanded="true" signature="210:273" ph="{...}" />
+            <marker date="1516375504000" expanded="true" signature="319:409" ph="{...}" />
+            <marker date="1516375504000" expanded="true" signature="495:564" ph="{...}" />
+            <marker date="1516375504000" expanded="true" signature="608:698" ph="{...}" />
+            <marker date="1516375504000" expanded="true" signature="757:826" ph="{...}" />
+            <marker date="1516375504000" expanded="true" signature="884:953" ph="{...}" />
+            <marker date="1516375504000" expanded="true" signature="996:1065" ph="{...}" />
+            <marker date="1516375504000" expanded="true" signature="1103:1172" ph="{...}" />
+            <marker date="1516375504000" expanded="true" signature="1237:1306" ph="{...}" />
           </folding>
         </state>
       </provider>

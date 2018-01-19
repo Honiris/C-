@@ -6,9 +6,11 @@ namespace WestWorldTycoon
 {
     public class Map
     {
+        public Tile[,] matrix;
+        
         public Map(string name)
         {
-            throw new NotImplementedException();
+            Map = TycoonIO.ParseMap(name);
         }
         
         
