@@ -10,7 +10,7 @@ namespace WestWorldTycoon
         
         public Map(string name)
         {
-            Map = TycoonIO.ParseMap(name);
+            matrix = TycoonIO.ParseMap(name);
         }
         
         
@@ -23,7 +23,7 @@ namespace WestWorldTycoon
 
         public bool Build(int i, int j, ref long money, Building.BuildingType type)
         {
-            throw new NotImplementedException();
+            return matrix[i, j].Build(ref money, type);
         }
 
 
@@ -35,7 +35,7 @@ namespace WestWorldTycoon
 
         public bool Upgrade(int i, int j, ref long money)
         {
-            throw new NotImplementedException();
+            return matrix[i, j].Upgrade(ref money);
         }
         
         
@@ -47,19 +47,43 @@ namespace WestWorldTycoon
         
         public long GetHousing()
         {
-            throw new NotImplementedException();
+            long sum;
+
+            sum = 0;
+            foreach (var x in matrix)
+            {
+                sum += x.GetHousing();
+            }
+
+            return sum;
         }
 
 
         public long GetPopulation()
         {
-            throw new NotImplementedException();
+            long sum;
+
+            sum = 0;
+            foreach (var x in matrix)
+            {
+                sum += x.GetAttractiveness();
+            }
+
+            return sum;
         }
         
         
         public long GetIncome(long population)
         {
-            throw new NotImplementedException();
+            long sum;
+
+            sum = 0;
+            foreach (var x in matrix)
+            {
+                sum += x.GetIncome(population);
+            }
+
+            return sum;
         }
        
     }

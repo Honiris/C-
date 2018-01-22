@@ -90,7 +90,7 @@ namespace WestWorldTycoon
         public long GetHousing()
         {
             if (building.Type != Building.BuildingType.HOUSE)
-                throw new ArgumentException("...");
+                return 0;
             return (building as House).Housing();
         }
         
@@ -98,7 +98,7 @@ namespace WestWorldTycoon
         public long GetAttractiveness()
         {
             if (building.Type != Building.BuildingType.ATTRACTION)
-                throw new ArgumentException("...");
+                return 0;
             return (building as Attraction).Attractiveness();
         }
         
@@ -106,7 +106,7 @@ namespace WestWorldTycoon
         public long GetIncome(long population)
         {
             if (building.Type != Building.BuildingType.SHOP)
-                throw new ArgumentException("...");
+                return 0;
             return (building as Shop).Income(population);
         }
 
