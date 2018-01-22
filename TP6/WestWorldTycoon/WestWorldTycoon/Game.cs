@@ -1,13 +1,25 @@
 ﻿using System;
+using System.Reflection;
+using System.Xml.Schema;
 
 namespace WestWorldTycoon
 {
     public class Game
     {
+        private long score;
+        private long money;
+        private int nbRound;
+        private int round;
+        private Map map;
+        
         public Game(string name, int nbRound, long initialMoney)
         {
             TycoonIO.GameInit(name, nbRound, initialMoney);
-            throw new NotImplementedException();
+            round = 1;
+            this.nbRound = NbRound;
+            money = initialMoney;
+            map = new Map(name);
+            score = 0;
         }
 
 
@@ -26,7 +38,7 @@ namespace WestWorldTycoon
 
         public bool Build(int i, int j, Building.BuildingType type)
         {
-            throw new NotImplementedException();
+            return map.Build(i, j, ref money, type);
         }
 
 
@@ -43,30 +55,30 @@ namespace WestWorldTycoon
         
         public long Score
         {
-            get { throw new NotImplementedException(); }
+            get { return score; }
         }
         
         
         public long Money
         {
-            get { throw new NotImplementedException(); }
+            get { return money; }
         }
         
         
         public int NbRound
         {
-            get { throw new NotImplementedException(); }
+            get { return nbRound; }
         }
 
 
         public int Round
         {
-            get { throw new NotImplementedException(); }
+            get { return round; }
         }
 
         public Map Map
         {
-            get { throw new NotImplementedException(); }
+            get { return map; }
         }
     }
 }

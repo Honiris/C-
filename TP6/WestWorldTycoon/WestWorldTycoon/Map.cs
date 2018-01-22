@@ -41,7 +41,15 @@ namespace WestWorldTycoon
         
         public long GetAttractiveness()
         {
-            throw new NotImplementedException();
+            long sum;
+
+            sum = 0;
+            foreach (var x in matrix)
+            {
+                sum += x.GetAttractiveness();
+            }
+
+            return sum;
         }
 
         
@@ -61,15 +69,10 @@ namespace WestWorldTycoon
 
         public long GetPopulation()
         {
-            long sum;
+            long housing = GetHousing();
+            long attractive = GetAttractiveness();
 
-            sum = 0;
-            foreach (var x in matrix)
-            {
-                sum += x.GetAttractiveness();
-            }
-
-            return sum;
+            return (housing < attractive) ? housing : attractive;
         }
         
         
