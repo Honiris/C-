@@ -7,9 +7,11 @@ namespace TinyPhotoshop
     {
         public static Color Grey(Color color)
         {
-	        Color gray = Color.FromArgb((int) Math.Floor(color.R * 0.2126),
-		                                (int) Math.Floor(color.G * 0.7152),
-		                                (int) Math.Floor(color.B * 0.0722));
+	        double r = (double)color.R;
+	        double g = (double)color.G;
+	        double b = (double)color.B;
+	        int moy = (int)Math.Floor((r + g + b) / 3);
+	        Color gray = Color.FromArgb(moy, moy, moy);
 	        return gray;
         }
 
@@ -29,7 +31,7 @@ namespace TinyPhotoshop
 	        g = (g >= 127.5) ? 255 : 0;
 	        b = (b >= 127.5) ? 255 : 0;
 
-	        Color bc = Color.FromArgb(r, g, b);
+	        Color bc = Color.FromArgb((int)r, (int)g, (int)b);
 
 	        return bc;
         }
@@ -51,14 +53,35 @@ namespace TinyPhotoshop
         
         public static Color Tinter(Color color, Color tint, int factor)
         {
-			//FIXME
-			throw new NotImplementedException();
-		}
+	        int r = color.R;
+	        int g = color.G;
+	        int b = color.B;
+	        double rr = color.R;
+	        double gg = color.G;
+	        double bb = color.B;
+	        int rrr = r + (int)Math.Floor(rr * (double)factor / 100);
+	        int ggg = g + (int)Math.Floor(gg * (double)factor / 100);
+	        int bbb = b + (int)Math.Floor(bb * (double)factor / 100);
+	        
+	        Color bc = Color.FromArgb(rrr, ggg, bbb);
+
+	        return bc;
+        }
 
         public static Image Apply(Bitmap img, Func<Color, Color> func)
         {
-			//FIXME
-			throw new NotImplementedException();
-		}
+	        int x = img.Width;
+	        int y = img.Height;
+	        
+	        for (int i = 0; i < x; i++)
+	        {
+		        for (int j = 0; j < y; j++)
+		        {
+			        img.SetPixel(i, j, func(img.GetPixel(i, j)));
+		        }
+	        }
+
+	        return img;
+        }
     }
 }
