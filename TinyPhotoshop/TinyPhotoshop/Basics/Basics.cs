@@ -59,9 +59,9 @@ namespace TinyPhotoshop
 	        double rr = tint.R;
 	        double gg = tint.G;
 	        double bb = tint.B;
-	        int rrr = r + (int)Math.Floor(rr * (double)factor / 100);
-	        int ggg = g + (int)Math.Floor(gg * (double)factor / 100);
-	        int bbb = b + (int)Math.Floor(bb * (double)factor / 100);
+	        int rrr = r * factor / 100 + (int)Math.Floor(rr * (1 - (double)factor / 100));
+	        int ggg = g * factor / 100 + (int)Math.Floor(gg * (1 - (double)factor / 100));
+	        int bbb = b * factor / 100 + (int)Math.Floor(bb * (1 - (double)factor / 100));
 	        
 	        Color bc = Color.FromArgb(rrr, ggg, bbb);
 

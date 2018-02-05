@@ -10,8 +10,27 @@ namespace TinyPhotoshop
     {      
         public static Image Resize(Bitmap img, int x, int y)
         {
-			//FIXME
-			throw new NotImplementedException();
+	        int xx = img.Width;
+	        int yy = img.Height;
+	        Color[,] copy = new Color[y, x];
+
+	        for (int i = 0; i < xx; i++)
+	        {
+		        for (int j = 0; j < yy; j++)
+		        {
+			        copy[j, i] = img.GetPixel(j, i);
+		        }
+	        }
+	        
+	        for (int i = 0; i < xx; i++)
+	        {
+		        for (int j = 0; j < yy; j++)
+		        {
+			        img.SetPixel(i, j, copy[(j + y) % y, (i + x) % x]);
+		        }
+	        }
+
+	        return img;
         }
         
         public static Image Shift(Bitmap img, int x, int y)
