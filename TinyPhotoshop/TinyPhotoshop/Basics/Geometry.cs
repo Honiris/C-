@@ -110,7 +110,26 @@ namespace TinyPhotoshop
         
         public static Image SymmetryPoint(Bitmap img, int x, int y)
         {
-			//FIXME
+	        int xx = img.Width;
+	        int yy = img.Height;
+	        Color[,] copy = new Color[yy, xx];
+
+	        for (int i = 0; i < xx; i++)
+	        {
+		        for (int j = 0; j < yy; j++)
+		        {
+			        copy[j, i] = img.GetPixel(i, j);
+		        }
+	        }
+	        
+	        for (int i = 0; i < xx; i++)
+	        {
+		        for (int j = 0; j < yy; j++)
+		        {
+			        img.SetPixel(((x - i) % xx + xx) % xx, ((y - j) % yy + yy) % yy, copy[j, i]);
+		        }
+	        }
+
 	        return img;
 		}
         
