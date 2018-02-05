@@ -60,13 +60,51 @@ namespace TinyPhotoshop
 
         public static Image SymmetryHorizontal(Bitmap img)
         {
-			//FIXME
+	        int xx = img.Width;
+	        int yy = img.Height;
+	        Color[,] copy = new Color[yy, xx];
+
+	        for (int i = 0; i < xx; i++)
+	        {
+		        for (int j = 0; j < yy; j++)
+		        {
+			        copy[j, i] = img.GetPixel(i, j);
+		        }
+	        }
+	        
+	        for (int i = 0; i < xx; i++)
+	        {
+		        for (int j = 0; j < yy; j++)
+		        {
+			        img.SetPixel(i, yy - j, copy[j, i]);
+		        }
+	        }
+
 	        return img;
 		}
         
         public static Image SymmetryVertical(Bitmap img)
         {
-			//FIXME
+	        int xx = img.Width;
+	        int yy = img.Height;
+	        Color[,] copy = new Color[yy, xx];
+
+	        for (int i = 0; i < xx; i++)
+	        {
+		        for (int j = 0; j < yy; j++)
+		        {
+			        copy[j, i] = img.GetPixel(i, j);
+		        }
+	        }
+	        
+	        for (int i = 0; i < xx; i++)
+	        {
+		        for (int j = 0; j < yy; j++)
+		        {
+			        img.SetPixel(xx - i, j, copy[j, i]);
+		        }
+	        }
+
 	        return img;
 		}
         
