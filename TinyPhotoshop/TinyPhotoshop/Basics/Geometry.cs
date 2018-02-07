@@ -10,26 +10,6 @@ namespace TinyPhotoshop
     {      
         public static Image Resize(Bitmap img, int x, int y)
         {
-	        int xx = img.Width;
-	        int yy = img.Height;
-	        Color[,] copy = new Color[y, x];
-
-	        for (int i = 0; i < xx; i++)
-	        {
-		        for (int j = 0; j < yy; j++)
-		        {
-			        copy[j, i] = img.GetPixel(j, i);
-		        }
-	        }
-	        
-	        for (int i = 0; i < xx; i++)
-	        {
-		        for (int j = 0; j < yy; j++)
-		        {
-			        img.SetPixel(i, j, copy[(j + y) % y, (i + x) % x]);
-		        }
-	        }
-
 	        return img;
         }
         
@@ -59,52 +39,14 @@ namespace TinyPhotoshop
         }
 
         public static Image SymmetryHorizontal(Bitmap img)
-        {
-	        int xx = img.Width;
-	        int yy = img.Height;
-	        Color[,] copy = new Color[yy, xx];
-
-	        for (int i = 0; i < xx; i++)
-	        {
-		        for (int j = 0; j < yy; j++)
-		        {
-			        copy[j, i] = img.GetPixel(i, j);
-		        }
-	        }
-	        
-	        for (int i = 0; i < xx; i++)
-	        {
-		        for (int j = 0; j < yy; j++)
-		        {
-			        img.SetPixel(i, yy - j, copy[j, i]);
-		        }
-	        }
-
+        { 
+	        img.RotateFlip(RotateFlipType.RotateNoneFlipY);
 	        return img;
-		}
+        }
         
         public static Image SymmetryVertical(Bitmap img)
         {
-	        int xx = img.Width;
-	        int yy = img.Height;
-	        Color[,] copy = new Color[yy, xx];
-
-	        for (int i = 0; i < xx; i++)
-	        {
-		        for (int j = 0; j < yy; j++)
-		        {
-			        copy[j, i] = img.GetPixel(i, j);
-		        }
-	        }
-	        
-	        for (int i = 0; i < xx; i++)
-	        {
-		        for (int j = 0; j < yy; j++)
-		        {
-			        img.SetPixel(xx - i, j, copy[j, i]);
-		        }
-	        }
-
+	        img.RotateFlip(RotateFlipType.RotateNoneFlipX);
 	        return img;
 		}
         
@@ -135,13 +77,14 @@ namespace TinyPhotoshop
         
         public static Image RotationLeft(Bitmap img)
         {
-			//FIXME
+	        img.RotateFlip(RotateFlipType.Rotate180FlipNone);
+	        img.RotateFlip(RotateFlipType.Rotate90FlipNone);
 	        return img;
 		}
         
         public static Image RotationRight(Bitmap img)
         {
-			//FIXME
+	        img.RotateFlip(RotateFlipType.Rotate90FlipNone);
 	        return img;
 		}
     }
