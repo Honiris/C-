@@ -62,6 +62,7 @@ namespace Brainfuck
                 return JSONElement.JSONType.LIST;
             if (c == (char) 34)
                 return JSONElement.JSONType.STR;
+            return JSONElement.JSONType.NULL;
         }
 
         public static string ParseString(string json, ref int index)
@@ -71,7 +72,7 @@ namespace Brainfuck
 
             if (json[a] == (char) 34)
             {
-                return "":
+                return "";
             }
             else
             {
@@ -97,8 +98,8 @@ namespace Brainfuck
 
         public static void EatBlank(string json, ref int index)
         {
-            // TODO
-            throw new NotImplementedException();
+            while ((int) json[index] <= 32)
+                index++;
         }
         
         public static JSONElement ParseJSONString(string json, ref int index)
