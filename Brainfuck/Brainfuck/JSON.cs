@@ -71,16 +71,12 @@ namespace Brainfuck
             int b = a;
 
             if (json[a] == (char) 34)
-            {
                 return "";
-            }
-            else
-            {
-                while (json[b] != (char) 34 && json[b - 1] != (char) 92)
-                    b++;
+            
+            while (json[b] != (char) 34 && json[b - 1] != (char) 92)
+                b++;
                 
-                return json.Substring(a, b - 1);
-            }
+            return json.Substring(a, b - 1);
         }
 
 

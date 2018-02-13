@@ -103,6 +103,10 @@ namespace Brainfuck
                         }
                     }
                 }
+                else
+                {
+                    throw new ArgumentException("Not a BrainFuck symbol");
+                }
                 
                 i++;
             }
