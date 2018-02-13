@@ -1,0 +1,7 @@
+/home/mathias.deroche/Desktop/C-/Brainfuck/Brainfuck/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/home/mathias.deroche/Desktop/C-/Brainfuck/Brainfuck/obj/Debug/Brainfuck.IDE.resources
+/home/mathias.deroche/Desktop/C-/Brainfuck/Brainfuck/bin/Debug/Brainfuck.exe.config
+/home/mathias.deroche/Desktop/C-/Brainfuck/Brainfuck/bin/Debug/Brainfuck.pdb
+/home/mathias.deroche/Desktop/C-/Brainfuck/Brainfuck/bin/Debug/Brainfuck.exe
+/home/mathias.deroche/Desktop/C-/Brainfuck/Brainfuck/obj/Debug/Brainfuck.exe
+/home/mathias.deroche/Desktop/C-/Brainfuck/Brainfuck/obj/Debug/Brainfuck.pdb
