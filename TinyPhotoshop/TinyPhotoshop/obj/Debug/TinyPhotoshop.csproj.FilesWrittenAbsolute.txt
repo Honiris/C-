@@ -1,6 +1,0 @@
-/home/mathias.deroche/Desktop/C-/TinyPhotoshop/TinyPhotoshop/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/home/mathias.deroche/Desktop/C-/TinyPhotoshop/TinyPhotoshop/obj/Debug/TinyPhotoshop.TinyPhotoshopForm.resources
-/home/mathias.deroche/Desktop/C-/TinyPhotoshop/TinyPhotoshop/bin/Debug/TinyPhotoshop.pdb
-/home/mathias.deroche/Desktop/C-/TinyPhotoshop/TinyPhotoshop/bin/Debug/TinyPhotoshop.exe
-/home/mathias.deroche/Desktop/C-/TinyPhotoshop/TinyPhotoshop/obj/Debug/TinyPhotoshop.exe
-/home/mathias.deroche/Desktop/C-/TinyPhotoshop/TinyPhotoshop/obj/Debug/TinyPhotoshop.pdb

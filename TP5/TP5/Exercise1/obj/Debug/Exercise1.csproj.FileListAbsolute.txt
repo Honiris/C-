@@ -1,6 +1,0 @@
-C:\Users\Youplaboom\Desktop\TP5\TP5\Exercise1\obj\Debug\Exercise1.csprojResolveAssemblyReference.cache
-C:\Users\Youplaboom\Desktop\TP5\TP5\Exercise1\obj\Debug\Exercise1.csproj.CoreCompileInputs.cache
-C:\Users\Youplaboom\Desktop\TP5\TP5\Exercise1\bin\Debug\Exercise1.exe
-C:\Users\Youplaboom\Desktop\TP5\TP5\Exercise1\bin\Debug\Exercise1.pdb
-C:\Users\Youplaboom\Desktop\TP5\TP5\Exercise1\obj\Debug\Exercise1.exe
-C:\Users\Youplaboom\Desktop\TP5\TP5\Exercise1\obj\Debug\Exercise1.pdb
