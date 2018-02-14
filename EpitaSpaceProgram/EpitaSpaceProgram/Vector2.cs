@@ -8,7 +8,7 @@ namespace EpitaSpaceProgram
     public class Vector2
     {
         // Don't forget to implement me!
-        public static readonly Vector2 Zero = null;
+        public static readonly Vector2 Zero = new Vector2(0, 0);
 
         public Vector2(double x, double y)
         {
