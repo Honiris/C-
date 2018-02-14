@@ -20,6 +20,7 @@
         {
             base.Update(delta);
             Acceleration += -damping * ((Position - origin) / delta);
+            pos = Position;
         }
     }
 }
