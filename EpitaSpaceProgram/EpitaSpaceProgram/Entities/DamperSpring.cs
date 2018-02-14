@@ -8,13 +8,13 @@
             double spring, double damping)
             : base(name, mass, density, initialPosition, origin, spring)
         {
-            this.dumpling = dumpling;
+            this.dumpling = damping;
         }
 
         public override void Update(double delta)
         {
-            Acceleration += -dumpling * ((Position - Origin) / delta);
             base.Update(delta);
+            Acceleration += -dumpling * ((Position - origin) / delta);
         }
     }
 }
