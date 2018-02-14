@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4461ecb1-dd7b-44fb-92dc-f5ae299107cc" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Client.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Constants.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding>
+                <marker date="1518438086000" expanded="true" signature="27:418" ph="{...}" />
+                <marker date="1518438086000" expanded="true" signature="63:416" ph="{...}" />
+                <marker date="1518438086000" expanded="true" signature="169:366" ph="/* How many times per second should we update the simulation (Hertz). ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vector2.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Vector2.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+              <folding>
+                <marker date="1518614020969" expanded="false" signature="6:115" ph="..." />
+                <marker date="1518614020969" expanded="true" signature="144:2341" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="171:2339" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="314:372" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="492:556" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="622:700" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="766:844" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="912:992" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="1060:1140" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="1208:1288" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="1356:1436" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="1509:1574" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="1665:1750" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="1862:1919" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="2070:2163" ph="{...}" />
+                <marker date="1518614020969" expanded="true" signature="2242:2333" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scene.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Scene.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <marker date="1518457513000" expanded="false" signature="6:90" ph="..." />
+                <marker date="1518457513000" expanded="true" signature="124:1905" ph="{...}" />
+                <marker date="1518457513000" expanded="true" signature="255:1903" ph="{...}" />
+                <marker date="1518457513000" expanded="true" signature="485:579" ph="{...}" />
+                <marker date="1518457513000" expanded="true" signature="744:1113" ph="{...}" />
+                <marker date="1518457513000" expanded="true" signature="1157:1212" ph="{...}" />
+                <marker date="1518457513000" expanded="true" signature="1241:1410" ph="{...}" />
+                <marker date="1518457513000" expanded="true" signature="1438:1522" ph="{...}" />
+                <marker date="1518457513000" expanded="true" signature="1569:1897" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IEntity.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/IEntity.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Simulation.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Simulation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Body.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="73" column="33" lean-forward="false" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CirclingSpring.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/CirclingSpring.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jpg</find>
+      <find>Console.</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Constants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Scene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Json.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Simulation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/TestScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/SpringScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/InfinityDemoScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/InfinityScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/TwoBodyScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/DamperScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/PendulumScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingDemoScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/GravityScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/ThreeBodyScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/BouncyEarthScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingComplexScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/MagnetismScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/InfinityComplexScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Gravity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/System.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/TestBody.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/DamperSpring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/SpringMax.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Spring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/CirclingSpring.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/DistanceJoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/CompositeBody.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Infinity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Vector2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EpitaSpaceProgram/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/BouncyEarth.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Bodies/Body.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Bodies/CirclingSpring.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Bodies/Gravity.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Program.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/ACDCProgram.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/ACDCSimulation.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/AcdcSimulation.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/IEntity.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/Lateral.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/ConstantVelocity.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/Gravity.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/Infinity.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Body.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/ServerUtils.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/HTTPServer.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Class1.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/DamperSpring.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/SocketHandler.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/DamperScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/GravityScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/SpringScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/SpringMax.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Constants.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/ConstantVelocityScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/TestBody.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/CirclingSpring.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/CompositeBody.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/TestScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingDemo.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingDemoScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingComplexScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/InfinityScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/InfinityDemoScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/InfinityComplexScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/Spring.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/DistanceJoint.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/System.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/BouncyEarthScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/ThreeBodyScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/TwoBodyScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Scenes/MagnetismScene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Client.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Program.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Simulation.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Scene.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Json.cs" />
+        <option value="$PROJECT_DIR$/EpitaSpaceProgram/Vector2.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="y" value="31" />
+    <option name="width" value="840" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="EpitaSpaceProgram (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="EpitaSpaceProgram (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="EpitaSpaceProgram" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/EpitaSpaceProgram/bin/Debug/EpitaSpaceProgram.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/EpitaSpaceProgram/EpitaSpaceProgram.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4461ecb1-dd7b-44fb-92dc-f5ae299107cc" name="Default" comment="" />
+      <created>1509555195361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509555195361</updated>
+      <workItem from="1509555196559" duration="820000" />
+      <workItem from="1509562501612" duration="4749000" />
+      <workItem from="1509730059287" duration="11269000" />
+      <workItem from="1510084613023" duration="249000" />
+      <workItem from="1510085027716" duration="1810000" />
+      <workItem from="1512047210484" duration="2517000" />
+      <workItem from="1512128238980" duration="757000" />
+      <workItem from="1512169875593" duration="7122000" />
+      <workItem from="1513346151711" duration="373000" />
+      <workItem from="1514727372055" duration="23600000" />
+      <workItem from="1514858325782" duration="4562000" />
+      <workItem from="1515166201800" duration="21265000" />
+      <workItem from="1516184025079" duration="7055000" />
+      <workItem from="1516456198250" duration="720000" />
+      <workItem from="1516460195632" duration="15468000" />
+      <workItem from="1516543826316" duration="69000" />
+      <workItem from="1516543926334" duration="4243000" />
+      <workItem from="1516780247697" duration="7727000" />
+      <workItem from="1518208370349" duration="6037000" />
+      <workItem from="1518437976450" duration="734000" />
+      <workItem from="1518442382407" duration="72000" />
+      <workItem from="1518442627359" duration="83000" />
+      <workItem from="1518442798476" duration="280000" />
+      <workItem from="1518443182841" duration="47000" />
+      <workItem from="1518443317901" duration="181000" />
+      <workItem from="1518443968437" duration="97000" />
+      <workItem from="1518444287857" duration="970000" />
+      <workItem from="1518445966214" duration="71000" />
+      <workItem from="1518446808244" duration="1003000" />
+      <workItem from="1518457313446" duration="1581000" />
+      <workItem from="1518458920838" duration="1056000" />
+      <workItem from="1518460007847" duration="32000" />
+      <workItem from="1518612391194" duration="1659000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="128278000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="31" width="840" height="970" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.027777778" sideWeight="0.39937273" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44166666" sideWeight="0.6006273" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18266542" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14868106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39794967" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32228667" sideWeight="0.48595655" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="53" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Simulation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Resources.cs" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Content/index.html" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Content/app.js" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/EpitaSpaceProgram.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/HighResolutionDateTime.cs" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/SpringSystem.cs" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/packages.config" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ClientMessage.cs" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/WSServer.cs" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/PhysicsBody.cs" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Serializable.cs" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/ServerUtils.cs" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/DamperScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/GravityScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/SpringScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/HttpServer.cs" />
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/TestScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="71" lean-forward="false" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/InfinityScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingDemoScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingComplexScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/CirclingScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/InfinityComplexScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/InfinityDemoScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/CompositeBody.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/SpringMax.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Spring.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Infinity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/DistanceJoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/PendulumScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Gravity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/ThreeBodyScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/TwoBodyScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/MagnetismScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="70" lean-forward="false" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/DamperSpring.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="72" lean-forward="false" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/System.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Scenes/BouncyEarthScene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/TestBody.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/CirclingSpring.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/IEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Simulation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="33" lean-forward="false" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Json.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <marker date="1518458776000" expanded="false" signature="6:61" ph="..." />
+            <marker date="1518458776000" expanded="true" signature="95:799" ph="{...}" />
+            <marker date="1518458776000" expanded="true" signature="126:797" ph="{...}" />
+            <marker date="1518458776000" expanded="true" signature="178:264" ph="{...}" />
+            <marker date="1518458776000" expanded="true" signature="311:392" ph="{...}" />
+            <marker date="1518458776000" expanded="true" signature="432:545" ph="{...}" />
+            <marker date="1518458776000" expanded="true" signature="589:791" ph="{...}" />
+            <marker date="1518458776000" expanded="true" signature="612:736" ph="/* Returns the text representation of a list of objects. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/ACDC/Scene.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1518457513000" expanded="false" signature="6:90" ph="..." />
+            <marker date="1518457513000" expanded="true" signature="124:1905" ph="{...}" />
+            <marker date="1518457513000" expanded="true" signature="255:1903" ph="{...}" />
+            <marker date="1518457513000" expanded="true" signature="485:579" ph="{...}" />
+            <marker date="1518457513000" expanded="true" signature="744:1113" ph="{...}" />
+            <marker date="1518457513000" expanded="true" signature="1157:1212" ph="{...}" />
+            <marker date="1518457513000" expanded="true" signature="1241:1410" ph="{...}" />
+            <marker date="1518457513000" expanded="true" signature="1438:1522" ph="{...}" />
+            <marker date="1518457513000" expanded="true" signature="1569:1897" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Constants.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <marker date="1518438086000" expanded="true" signature="27:418" ph="{...}" />
+            <marker date="1518438086000" expanded="true" signature="63:416" ph="{...}" />
+            <marker date="1518438086000" expanded="true" signature="169:366" ph="/* How many times per second should we update the simulation (Hertz). ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Vector2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <marker date="1518614020969" expanded="false" signature="6:115" ph="..." />
+            <marker date="1518614020969" expanded="true" signature="144:2341" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="171:2339" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="314:372" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="492:556" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="622:700" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="766:844" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="912:992" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="1060:1140" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="1208:1288" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="1356:1436" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="1509:1574" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="1665:1750" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="1862:1919" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="2070:2163" ph="{...}" />
+            <marker date="1518614020969" expanded="true" signature="2242:2333" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
