@@ -5,7 +5,7 @@
         public Gravity(string name, double mass, double density, Vector2 initialPosition, Vector2 gravity)
             : base(name, mass, density, initialPosition)
         {
-            // FIXME
+            new 
         }
 
         public override void Update(double delta)
