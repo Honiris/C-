@@ -83,13 +83,14 @@
       <file leaf-file-name="Spring.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Spring.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            <state relative-caret-position="323">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
-                <marker date="1518617530451" expanded="true" signature="27:402" ph="{...}" />
-                <marker date="1518617530451" expanded="true" signature="60:400" ph="{...}" />
-                <marker date="1518617530451" expanded="true" signature="261:302" ph="{...}" />
-                <marker date="1518617530451" expanded="true" signature="353:394" ph="{...}" />
+                <marker date="1518618342077" expanded="true" signature="6:74" ph="..." />
+                <marker date="1518618342077" expanded="true" signature="103:656" ph="{...}" />
+                <marker date="1518618342077" expanded="true" signature="136:654" ph="{...}" />
+                <marker date="1518618342077" expanded="true" signature="392:510" ph="{...}" />
+                <marker date="1518618342077" expanded="true" signature="561:648" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -354,12 +355,12 @@
       <workItem from="1518457313446" duration="1581000" />
       <workItem from="1518458920838" duration="1056000" />
       <workItem from="1518460007847" duration="32000" />
-      <workItem from="1518612391194" duration="5183000" />
+      <workItem from="1518612391194" duration="5952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131802000" />
+    <option name="totallyTimeSpent" value="132571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,7 +379,7 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15046297" sideWeight="0.66527635" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15046297" sideWeight="0.33472368" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15046297" sideWeight="0.33472368" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18266542" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -799,19 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Gravity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <marker date="1518617270706" expanded="true" signature="42:491" ph="{...}" />
-            <marker date="1518617270706" expanded="true" signature="76:489" ph="{...}" />
-            <marker date="1518617270706" expanded="true" signature="288:344" ph="{...}" />
-            <marker date="1518617270706" expanded="true" signature="395:483" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Body.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1297">
@@ -835,15 +823,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Gravity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <marker date="1518617270706" expanded="true" signature="42:491" ph="{...}" />
+            <marker date="1518617270706" expanded="true" signature="76:489" ph="{...}" />
+            <marker date="1518617270706" expanded="true" signature="288:344" ph="{...}" />
+            <marker date="1518617270706" expanded="true" signature="395:483" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EpitaSpaceProgram/Entities/Spring.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="323">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
-            <marker date="1518617530451" expanded="true" signature="27:402" ph="{...}" />
-            <marker date="1518617530451" expanded="true" signature="60:400" ph="{...}" />
-            <marker date="1518617530451" expanded="true" signature="261:302" ph="{...}" />
-            <marker date="1518617530451" expanded="true" signature="353:394" ph="{...}" />
+            <marker date="1518618342077" expanded="true" signature="6:74" ph="..." />
+            <marker date="1518618342077" expanded="true" signature="103:656" ph="{...}" />
+            <marker date="1518618342077" expanded="true" signature="136:654" ph="{...}" />
+            <marker date="1518618342077" expanded="true" signature="392:510" ph="{...}" />
+            <marker date="1518618342077" expanded="true" signature="561:648" ph="{...}" />
           </folding>
         </state>
       </provider>
