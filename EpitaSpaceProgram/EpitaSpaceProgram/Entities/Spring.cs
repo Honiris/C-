@@ -18,7 +18,7 @@ namespace EpitaSpaceProgram
         public override void Update(double delta)
         {
             base.Update(delta);
-            Acceleration = -spring * (Position - origin);
+            ApplyForce(-spring * (Position - origin));
         }
     }
 }

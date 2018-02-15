@@ -5,6 +5,7 @@
         private double damping;
         private Vector2 origin;
         private Vector2 pos;
+        private double spring;
         
         
         public DamperSpring(string name, double mass, double density, Vector2 initialPosition, Vector2 origin,
@@ -13,13 +14,15 @@
         {
             this.damping = damping;
             this.origin = origin;
+            this.spring = spring;
             pos = initialPosition;
         }
 
         public override void Update(double delta)
         {
             base.Update(delta);
-            Acceleration += -damping * ((Position - origin) / delta);
+            ApplyForce(-spring * (Position - origin) - damping * ((Position - origin) / delta));
+            origin = pos;
             pos = Position;
         }
     }
