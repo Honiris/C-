@@ -9,7 +9,6 @@ Heap homework
 """
 
 #given function
-from algopy import tree
 
 def newHeap():
     """ returns a fresh new empty heap
@@ -17,9 +16,8 @@ def newHeap():
     """
     return [None]
 
-    
 #---------------------------------------------------------------
-    
+
 def isEmpty(H):
     """ tests if H is empty
     
@@ -50,8 +48,7 @@ def heapPush(H, elt, val):
             l.append(H[i])
         for i in range(1, len(H)):
             H.pop()
-        
-    
+
 def heapPop(H):
     """ returns and deletes the element of smallest value
     
@@ -69,11 +66,13 @@ def heapPop(H):
             return tup
         else:
             l = []
-            for i in range(2, len(H)):
+            for i in range(2, m):
                 l.append(H[i])
-            for i in range(1, len(H)):
+            for i in range(1, m):
                 H.pop()
-                
+            for i in range(m - 3, 1, -1):
+                H.append(l[i]) 
+            return tup
 
 #---------------------------------------------------------------
 def isHeap(T):
@@ -96,8 +95,7 @@ def isHeap(T):
         r = T.right.key
         t = T.key
         return t <= l and t <= r and isHeap(T.left) and isHeap(T.right)
-    
-    
+
 def heapify(H):
     """ makes H a heap (in place) - returns H modified
     
